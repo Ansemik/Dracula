@@ -1,4 +1,10 @@
-/*idk*/
+/**
+ * @name         Dracula1
+ * @description  rdhsgr
+ * @author  Ansemik
+ * @version 1
+*/
+
 :root{
 	--bd-blue: var(--dracula-accent);
 	--bd-blue-hover: var(--dracula-accent-light);
@@ -51,30 +57,30 @@
 	--bg-rounding: 2px;
 	--indicators-border-info: 2px solid;
 }
-/* Watermark */
-.wordmark_a934d8 svg {
-  width: 0px;
+/* Watermark */ /*temporary file*/
+.wordmarkWindows_a934d8 {
+  /*width: 0px;*/
+  margin-top: -5px;
+  margin-left: -8px;
+  color: transparent;
+  background: url(https://media.discordapp.net/attachments/1258612422869254254/1258787008260739174/image.png?ex=66895041&is=6687fec1&hm=7e6bb9170cf78e095200eaaf82609a2fad6fa55d558f80afc6d6e07922a71573&=&quality=lossless);
 }
-
+/*
 .wordmark_a934d8::after {
   position: absolute;
-  font-family: "Discord";
+  font: "Uni Sans Heavy Italic";
   content: "Dracula";
   font-size: 14px;
   background: var(--dracula-accent); /* #72767d for default color */
-  -webkit-background-clip: text;
+  /*-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 /*better-channel-indicators.css";*/
-.wrapper_d8bfb3,
-.channel_c91bad > .layout_e9f61e {
-  background: none !important;
-}
-
 .modeSelected_d8bfb3::before,
 .modeUnreadImportant_d8bfb3::before {
   content: "";
   position: absolute;
+  margin-left: -2px;
   height: 34px;
   top: 0;
 }
@@ -785,8 +791,6 @@ circle[cx="68"][cy="12"][r="12"][fill="#7289DA"] {
 .checkmarkIcon_b4ece4 {
 	color: var(--dracula-accent);
 }
-
-
 /* reply mention */
 .repliedMessage_f9f2ca{
 	color: var(--dracula-accent)!important;
@@ -879,13 +883,10 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 ::selection {
 	background-color: var(--dracula-accent-dark);
 }
-/* chat select */
-
 .modeSelected_d8bfb3 .link_d8bfb3, .modeSelected_d8bfb3:hover .link_d8bfb3{
-	padding-left: 6px;
-	margin-left: 2px;
+	padding-left: 8px;
+	margin-left: 0px;
 }
-
 .modeSelected_d8bfb3::before{
 	border-left: var(--indicators-border-info) var(--unread-badge);
 }
@@ -894,4 +895,13 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 }
 .modeUnreadImportant_d8bfb3{
 	background-color: var(--dracula-accent-alpha)!important;
+}
+/* fix annoyance */
+
+.member_cbd271{
+	background: transparent;
+}
+.hasConnectedBar_d0696b{
+	border-top-left-radius: 0!important;
+    border-top-right-radius: 0!important;
 }
