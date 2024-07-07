@@ -51,13 +51,10 @@
 	--bg-rounding: 2px;
 	--indicators-border-info: 2px solid;
 }
-/* Watermark */ /*temporary file*/
+/* Watermark */
 .wordmarkWindows_a934d8 {
-  /*width: 0px;*/
-  margin-top: -5px;
-  margin-left: -8px;
   color: transparent;
-  background: url(https://media.discordapp.net/attachments/1258612422869254254/1258787008260739174/image.png?ex=66895041&is=6687fec1&hm=7e6bb9170cf78e095200eaaf82609a2fad6fa55d558f80afc6d6e07922a71573&=&quality=lossless);
+  background: url(https://media.discordapp.net/attachments/1258612422869254254/1258809624367468654/image.png?ex=668b5f92&is=668a0e12&hm=814358663e1bb9b36ecc84c5d68054bba8e671d8304547b6a072e412cad81188&=&quality=lossless);
 }
 /*
 .wordmark_a934d8::after {
@@ -895,7 +892,15 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 .member_cbd271{
 	background: transparent;
 }
+.container_cbd271{
+	background: transparent;
+}
 .hasConnectedBar_d0696b{
 	border-top-left-radius: 0!important;
     border-top-right-radius: 0!important;
+}
+   /* friends tab */
+
+.theme-dark .themed_e44302{
+	background: transparent;
 }
