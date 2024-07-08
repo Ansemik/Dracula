@@ -904,3 +904,22 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 .theme-dark .themed_e44302{
 	background: transparent;
 }
+/* should have used the preset but for some reason doesnt so i fucking force it now*/
+.messagesPopoutWrap_ac90a2{
+	background-color: var(--dracula-secondary);
+}
+.header_ac90a2{
+	background-color: var(--dracula-tertiary);
+}
+.messageGroupWrapper_ac90a2{
+	background-color: var(--dracula-primary);
+}
+.container_a1531c{
+	background-color: var(--dracula-secondary);
+}
+.answerInner_cf2c85{
+	background-color: var(--dracula-tertiary);
+}
+.votePercentageBar_cf2c85{
+	background-color: var(--dracula-primary-light);
+}
