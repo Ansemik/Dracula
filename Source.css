@@ -350,25 +350,6 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 	border: 2px dashed var(--dracula-accent);
 	border-radius: 10px;
 }
-/* settings */
-.button_f67531 {
-	border-radius: 20px;
-}
-#app-mount .root_f9a4c9 {
-	background-color: var(--dracula-primary);
-}
-#app-mount .footer-31IekZ {
-	background-color: var(--dracula-secondary);
-}
-#app-mount .htqj5xw-f1e1abj {
-	color: var(--dracula-accent);
-	border-color: var(--dracula-accent);
-}
-#app-mount .codeRedemptionRedirect-3SBiCp {
-	background-color: var(--dracula-secondary);
-	border-color: var(--dracula-tertiary);
-}
-
 /* join a server modal - because discord are literary braindead */
 
 .backButton-2Ps-B8.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.sizeMin-1mJd1x.grow-q77ONN {
