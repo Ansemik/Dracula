@@ -904,3 +904,12 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 .votePercentageBar_cf2c85{
 	background-color: var(--dracula-primary-light);
 }
+
+/*remove useless app bs*/
+.channelAppLauncher_df39bd{
+	display:none;
+}
+/*fix chat counter lol*/
+.chatCounter_XOMPsh{
+	right:0!important;
+}
