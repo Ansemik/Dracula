@@ -913,3 +913,7 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 .chatCounter_XOMPsh{
 	right:0!important;
 }
+/* activity category in members list*/
+.content_eed6a8 div:has(.container_c64476), .membersGroup_cbd271:has(.headerContainer_bc6acb) {
+    display: none;
+    }
