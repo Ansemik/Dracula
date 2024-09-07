@@ -918,3 +918,23 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 .content_eed6a8 div:has(.container_c64476), .membersGroup_cbd271:has(.headerContainer_bc6acb) {
     display: none;
     }
+/*small fixes*/
+.contentWrapper_af5dbb, .wrapper_e06857, .menu_d90b3d {
+	background:var(--dracula-secondary);
+}
+.inspector_c3120f{
+	background: var(--dracula-secondary-alpha);
+}
+.container_effbe2, .button_a24e84, .wrapper_ba23fe{
+	background: var(--dracula-tertiary);
+}
+.button_f7e168{
+	background: var(--dracula-primary);
+}
+#app-mount > div.appAsidePanelWrapper_bd26cc > div.notAppAsidePanel_bd26cc > div.app_bd26cc > div > div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.chat_a7d72e > div.content_a7d72e > main > form > div > div.charCounterAdded_zz9O4t > div.channelTextArea_a7d72e.channelTextArea_d0696b > div > div > div.buttons_d0696b > button{
+	display:none;
+}
+.wrapper_fea3ef, .theme-dark .container_b2ca13, .footer_aa1bff{
+	background: var(--dracula-tertiary);
+}
+
