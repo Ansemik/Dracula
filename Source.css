@@ -949,3 +949,7 @@ path[d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.58
 .theme-dark .themed_fc4f04,.theme-dark .children_fc4f04:after{
 	background:transparent;
 }
+/* reactions message buttons*/
+.popoverReactionHoverBar_e986d9{
+    background: var(--dracula-primary);
+}
