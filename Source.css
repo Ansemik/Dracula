@@ -107,6 +107,15 @@
     --modal-footer-background: var(--background-secondary); 
     --modal-background: #dad6d6;*/
 }
+.content_f75fb0, 
+.subtitleContainer_f75fb0, 
+.chat_f75fb0, 
+.searchBar__35e86, 
+.panels_c48ade, 
+.container__9293f, 
+.channelTextArea__74017{
+	border:0px!important;
+}
 
 [aria-label="Start An Activity"] {
     display:none!important;
