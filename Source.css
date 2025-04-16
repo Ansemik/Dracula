@@ -280,17 +280,17 @@
   padding-left: 5px;
   color: #747f8d;
 }
-/*jump-to-present*/
+/*jump-to-present*//*
 .jumpToPresentBar__0f481 {
-  visibility: hidden;
-  bottom: 15px;
-}
-.jumpToPresentBar__0f481 .barButtonIcon__0f481 {
   visibility: visible;
-  padding: 12px;
-  background-color: var(--dracula-accent);
-  border-radius: 50%;
-  margin-bottom: 2em;
+  bottom: 15px;
+}*/
+.jumpToPresentBar__0f481, .barButtonIcon__0f481 {
+  visibility: visible;
+  padding: 12px!important;
+  color: var(--dracula-accent)!important;
+  background-color: var(--dracula-primary)!important;
+
 }
 /* Theme */
 /* home page */
