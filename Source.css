@@ -61,8 +61,6 @@
 	--selected-bg: var(--dracula-accent-alpha);
 	--selected-bg-hover: var(--dracula-accent-alpha-alt);
 	--hovered-bg: rgba(79, 84, 92, 0.2);
-	--bg-rounding: 2px;
-	--indicators-border-info: 2px solid;
     --home-background: var(--background-primary);
 	--icon-tertiary: var(--channels-default);
 	--background-base-lowest: var(--background-secondary);
