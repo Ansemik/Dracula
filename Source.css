@@ -1,4 +1,3 @@
-
 :root{
 	--background-primary: var(--dracula-primary);
 	--background-secondary: var(--dracula-secondary);
@@ -61,6 +60,7 @@
 	--selected-bg: var(--dracula-accent-alpha);
 	--selected-bg-hover: var(--dracula-accent-alpha-alt);
 	--hovered-bg: rgba(79, 84, 92, 0.2);
+	--indicators-border-info: 2px solid;
     --home-background: var(--background-primary);
 	--icon-tertiary: var(--channels-default);
 	--background-base-lowest: var(--background-secondary);
@@ -147,10 +147,10 @@
 ._5e434347c823b592-sidebarListRounded, .platform-win ._5e434347c823b592-sidebar{
 	border-top-left-radius:0px!important;
 }
-._5e434347c823b592-panels, .visual-refresh ._5e434347c823b592-panels {
+._5e434347c823b592-panels {
     --custom-panels-spacing: 8px!important;
     position: absolute!important;
-    left: 80px!important;
+    left: calc(var(--custom-guild-list-width) + 8px)!important;
     width: calc(100% - var(--custom-panels-spacing)*11)!important;
     box-sizing: border-box;
 	background:var(--dracula-primary);
