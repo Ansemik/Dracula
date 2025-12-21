@@ -88,14 +88,30 @@
 	background:transparent;
 }
 
-.f75fb00fb7356cbe-content, 
-.f75fb00fb7356cbe-subtitleContainer, 
-.f75fb00fb7356cbe-chat, 
-.e6b7699ce8339e1c-searchBar, 
-._5e434347c823b592-panels, 
-._9293f6b2fc12398a-container, 
-._5e434347c823b592-page, 
-._5e434347c823b592-sidebarList, 
+.f75fb00fb7356cbe-content{
+	border:0px!important;
+} 
+.f75fb00fb7356cbe-subtitleContainer{
+	border:0px!important;
+} 
+.f75fb00fb7356cbe-chat{
+	border:0px!important;
+} 
+.e6b7699ce8339e1c-searchBar{
+	border:0px!important;
+} 
+._5e434347c823b592-panels{
+	border:0px!important;
+} 
+._9293f6b2fc12398a-container{
+	border:0px!important;
+} 
+._5e434347c823b592-page{
+	border:0px!important;
+} 
+._5e434347c823b592-sidebarList{
+	border:0px!important;
+} 
 ._740174f3d6a2c8fe-channelTextArea{
 	border:0px!important;
 }
