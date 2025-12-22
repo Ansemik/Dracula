@@ -1,3 +1,4 @@
+
 :root{
 	--background-primary: var(--dracula-primary);
 	--background-secondary: var(--dracula-secondary);
@@ -114,8 +115,8 @@
 	border:0px!important;
 }
 ._5dec784a68542d60-panel {
-    background-color: var(--dracula-secondary)!important;
-    border-bottom: 0px!important;
+    background-color: var(--dracula-primary)!important;/*
+    border-bottom: 0px!important;*/
 }
 [aria-label="Start An Activity"] {
     display:none!important;
@@ -151,8 +152,9 @@
     --custom-panels-spacing: 8px!important;
     position: absolute!important;
     left: calc(var(--custom-guild-list-width) + 8px)!important;
-    width: calc(100% - var(--custom-panels-spacing)*11)!important;
-    box-sizing: border-box;
+	/*width: calc(100% - var(--custom-panels-spacing) * 11)!important;*/
+    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 18px);
+	box-sizing: border-box;
 	background:var(--dracula-primary);
 }
 
